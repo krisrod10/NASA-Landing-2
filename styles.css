@@ -1,0 +1,81 @@
+body {
+    width: 850px;
+    margin: 0 auto;
+}
+
+main {
+    margin: 0 auto;
+    height: 450px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 200px;
+    margin-top: 20px;
+    font-size: 70px;
+    font-family: 'Anton', sans-serif;
+
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 324px;
+    background-color: rgb(224, 222, 222);
+    margin-top: 15px;
+}
+
+article {
+    
+    width: 270px;
+    height: 324px;
+    background-color: rgb(224, 222, 222);
+    Font-weight: Bold;
+    Margin-left: 10px;
+    Font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+article >a {
+    display: flex;
+    flex-direction: column;
+
+    color: black;
+    margin-top: 40px;
+}
+
+article >a >b {
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+form {
+    padding-top: 30px;
+}
+
+label {
+    color: black;
+    font-weight: normal;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(41, 36, 36);
+    color:white;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
